@@ -1,0 +1,2 @@
+cd C:\zip\python_zip\python_01\sql_chatbot
+python -m streamlit run app.py

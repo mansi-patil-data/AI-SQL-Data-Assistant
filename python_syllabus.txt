@@ -1,0 +1,23 @@
+| Level | Topic                            |       Tasks |
+| ----- | -------------------------------- | ----------: |
+| 1     | Python Basics                    |    **1–20** |
+| 2     | Conditions                       |   **21–40** |
+| 3     | Loops                            |   **41–70** |
+| 4     | Strings                          |   **71–95** |
+| 5     | Lists                            |  **96–125** |
+| 6     | Tuple / Set                      | **126–145** |
+| 7     | Dictionary                       | **146–175** |
+| 8     | Functions                        | **176–215** |
+| 9     | Comprehensions / Lambda          | **216–235** |
+| 10    | Modules & Packages               | **236–250** |
+| 11    | File Handling                    | **251–275** |
+| 12    | Exception Handling               | **276–295** |
+| 13    | OOP                              | **296–350** |
+| 14    | Advanced Python                  | **351–390** |
+| 15    | JSON / CSV                       | **391–410** |
+| 16    | APIs                             | **411–440** |
+| 17    | SQL + Python                     | **441–480** |
+| 18    | Git / GitHub                     | **481–500** |
+| 19    | Testing / Debugging / Clean Code | **501–530** |
+| 20    | Flask / FastAPI                  | **531–570** |
+| 21    | Real-world Projects              | **571–600** |

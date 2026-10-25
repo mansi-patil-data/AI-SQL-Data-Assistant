@@ -1,0 +1,19 @@
+arg max and min means find index
+
+
+sort using fun=sort_values
+
+
+group by
+
+
+POWER BI
+
+dax operations imp
+
+
+*data modeling means show relationship bet tables
+*fact = center table stores numeric values
+*dimention = sides table to connection fact table and click fact to show all info in dimentions table 
+*load = all data is clean so perform load
+*transformation = some includes null values and others 

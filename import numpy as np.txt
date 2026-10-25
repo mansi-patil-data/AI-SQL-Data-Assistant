@@ -1,0 +1,29 @@
+import numpy as np
+
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+# 1. Shape of array
+print("Shape:", arr.shape)
+
+# 2. Number of dimensions
+print("Dimensions:", arr.ndim)
+
+# 3. Total number of elements
+print("Size:", arr.size)
+
+# 4. Data type
+print("Data Type:", arr.dtype)
+
+# 5. Create a 3D array and find shape, dimensions, size
+arr3d = np.array([
+    [[1, 2], [3, 4]],
+    [[5, 6], [7, 8]]
+])
+
+print("3D Array:")
+print(arr3d)
+
+print("Shape:", arr3d.shape)
+print("Dimensions:", arr3d.ndim)
+print("Size:", arr3d.size)

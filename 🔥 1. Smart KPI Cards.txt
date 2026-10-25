@@ -1,0 +1,138 @@
+🔥 1. Smart KPI Cards
+
+सध्याचे 4 KPI आहेत:
+
+Total Rows
+Total Columns
+Missing Values
+Numeric Columns
+
+याऐवजी dataset नुसार dynamic KPIs:
+
+Total Records
+Total Revenue / Amount
+Average Rating
+Top Destination
+Unique Cities
+Foreign vs Domestic
+
+Upload केलेली कोणतीही Excel/CSV file असली तरी available numeric/categorical columns नुसार KPI automatically तयार होतील.
+
+🤖 2. AI Chat — मुख्य feature
+
+Chatbot ला असे प्रश्न विचारता आले पाहिजेत:
+
+"Which city has the highest visitors?"
+
+"Show top 5 destinations"
+
+"What is the average cost?"
+
+"Which season has the highest revenue?"
+
+"Give me a summary of this dataset"
+
+आणि chatbot ने answer + SQL query + result table दाखवावा.
+
+📊 3. AI-generated Charts
+
+सध्या manual X-axis/Y-axis selection आहे. त्याऐवजी:
+
+Ask AI → Generate Chart
+
+उदा.
+
+"Show me top 10 cities by visitors"
+
+AI स्वतः:
+
+योग्य columns निवडेल
+योग्य chart type निवडेल
+chart तयार करेल
+🎛️ 4. Professional Filters
+
+Sidebar मध्ये सध्या filter दिसतोय पण त्याला clean UI देता येईल.
+
+उदा.:
+
+Filters
+
+Date Range
+State
+City
+Destination
+Visitor Type
+Season
+
+आणि Reset Filters button.
+
+📈 5. Dashboard Overview
+
+वरच्या भागात एक proper dashboard layout:
+
+AI SQL Data Assistant
+
+📁 Dataset | 🟢 Connected | 79 Records
+
+नंतर:
+
+KPI Cards → Charts → Data Preview → AI Chat
+
+यामुळे Power BI/Tableau सारखा professional feel येईल.
+
+🧠 6. "Insights" Section
+
+AI automatically सांगेल:
+
+AI Insights
+
+🔹 Maharashtra has the highest number of records.
+🔹 Marine Drive is one of the most frequent destinations.
+🔹 Average rating is 4.6.
+🔹 Foreign visitors show different spending patterns.
+
+हे feature project demo मध्ये खूप impressive दिसेल.
+
+💾 7. Export Options
+
+User ला result download करता आला पाहिजे:
+
+📥 Download CSV
+📥 Download Excel
+📄 Download Report
+📊 Download Chart
+🎨 8. UI सुधारणा
+
+तुझ्या screenshot मध्ये काही जागा जास्त आहे आणि chart सध्या थोडा raw दिसतोय.
+
+मी suggest करेन:
+
+Modern dark/light theme
+Better KPI cards
+Icons
+Rounded cards
+Consistent spacing
+Chart titles
+Remove unnecessary debug information from main view
+Runtime Debug developer-only section मध्ये ठेवणे
+⭐ 9. एक खूप useful feature — Dataset Auto Detection
+
+User कोणतीही:
+
+Excel (.xlsx)
+CSV (.csv)
+JSON (.json)
+
+file upload करेल.
+
+App automatically:
+
+File read करेल
+Columns detect करेल
+Data types detect करेल
+KPIs generate करेल
+Filters generate करेल
+Charts suggest करेल
+AI ला dataset समजेल
+
+हे तुझ्या Universal File Upload concept ला खूप strong बनवेल.
